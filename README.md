@@ -10,7 +10,7 @@ Project is created with Python libraries:
 
 ## Files in this repository
 
-1. The EDA_analysis.ipynb file contains all the codes, plots and relevant descriptions of conducted analysis.
+1. The red_wine_analysis.ipynb file contains all the codes, plots and relevant descriptions of conducted analysis.
 
 ## The dataset origin
 
