@@ -2,11 +2,34 @@
 
 The project concerns the prediction of what makes the red wine taste good using Machine Learning approaches. 
 
-In this study the exploratory analysis (EDA) with visualizations of red wine quality dataset has been performed.
+## Motivation
 
-Project is created with Python libraries:
+In this study the exploratory analysis (EDA) with visualizations of red wine quality dataset as well as a different ML algorithms, such as Logistic Regression, KNN, Naive Bayes, SVM, Decision Tree and Random Forest have been performed to make a relevant predictions.
+
+#### The project is created with Python libraries:
 
  -  scikit-learn/pandas/numpy.
+
+### Summary
+
+After examination if our data set has any missing values and checking the features within it and their data types, we begin with the EDA analysis. The box and violin plots analysis of 'quality' target variable showed that very high (above 7) and very low (below 4) quality of analyzed red wine is quite rare in our data. The multivariate visualization showed existence of co-correlations between particular features after plotting a heat map of them. A relevant scatter-plots show how the values of partiular variables change with each other. One can see a positive or negative correlations between them.
+
+We have apllied ML models to make a predictions of wine quality and our analysis showed that the best prediction is given by Random Forest model with accuracy score equal to 87 % while the poorest one is given by Naive Bayes model with the accuracy score equal to 80 %.
+
+
+
+Model | Accuracy
+------------ | ------------- 
+Random Forest | 0.87
+Logistic Regression | 0.83
+KNN | 0.83
+SVM | 0.82
+Naive Bayes | 0.80
+
+
+#### Running the project:
+
+* To run this project use Jupyter Notebook or Google Colab.
 
 ## Files in this repository
 
@@ -44,3 +67,4 @@ And output variable (based on sensory data):
 ## Additional information
 
 The dataset contains no missing atribute values with 1599 instances of red wine. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.
+
