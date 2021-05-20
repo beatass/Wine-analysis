@@ -10,7 +10,7 @@ In this study the exploratory analysis (EDA) with visualizations of red wine qua
 
  -  scikit-learn/pandas/numpy.
 
-### Summary
+### A brief recap
 
 After examination if our data set has any missing values and checking the features within it and their data types, we begin with the EDA analysis. The box and violin plots analysis of 'quality' target variable showed that very high (above 7) and very low (below 4) quality of analyzed red wine is quite rare in our data. The multivariate visualization showed existence of co-correlations between particular features after plotting a heat map of them. A relevant scatter-plots show how the values of partiular variables change with each other. One can see a positive or negative correlations between them.
 
