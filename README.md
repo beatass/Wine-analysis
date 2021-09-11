@@ -10,11 +10,11 @@ In this study the exploratory analysis (EDA) with visualizations of wine quality
 
  -  scikit-learn/pandas/numpy.
 
-### Recap
+## Recap
 
 After examination if our data set has any missing values and checking the features within it and their data types, we begin with the EDA analysis. 
 
-## For red wine
+#### For red wine
 
 The box and violin plots analysis of 'quality' target variable showed that very high (above 7) and very low (below 4) quality of analyzed red wine is quite rare in our data. The multivariate visualization showed existence of co-correlations between particular features after plotting a heat map of them. A relevant scatter-plots show how the values of partiular variables change with each other. One can see a positive or negative correlations between them.
 
@@ -29,7 +29,7 @@ SVM | 0.82
 Naive Bayes | 0.80
 
 
-## For white wine
+#### For white wine
 
 The box plots analysis showed many outliers for quite a few variables. To remove them the Tukey's method has been used. This way an outlier is calculated as 1.5 times interquartile range. To get more insights we have also plotted a heat map of co-correlations between features (after outliers extraction) and we have explored them in more details. To better visualize relationships of discrete values we have used a bar plots while to visualize a continuous ones we have used a scatter plots.
 
