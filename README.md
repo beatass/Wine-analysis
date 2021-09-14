@@ -85,5 +85,5 @@ And output variable (based on sensory data):
 
 ## Additional information
 
-The dataset contains no missing atribute values with 1599 instances of red wine and 4882 of white wine. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.
+The dataset contains no missing atribute values with 1599 instances of red wine and 4882 of white wine. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.  
 
