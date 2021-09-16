@@ -12,7 +12,7 @@ In this study the exploratory analysis (EDA) with visualizations of wine quality
 
 ## Recap
 
-After examination if our data set has any missing values and checking the features within it and their data types, we begin with the EDA analysis. 
+After examination if our dataset has any missing values and checking the features within it and their data types, we begin with the EDA analysis. 
 
 #### For red wine
 
@@ -85,5 +85,5 @@ And output variable (based on sensory data):
 
 ## Additional information
 
-The dataset contains no missing atribute values with 1599 instances of red wine and 4882 of white wine. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.  
+The dataset contains no missing atribute values with 1599 instances of red wine and 4898 of white wine. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.  
 
