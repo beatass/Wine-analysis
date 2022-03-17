@@ -4,7 +4,7 @@ The project concerns the prediction of what makes the wine taste good using Mach
 
 ## Motivation
 
-In this study the exploratory data analysis (EDA) with visualizations of wine quality dataset as well as different ML algorithms, such as **Logistic Regression, KNN, Naive Bayes, SVM, Decision Tree, XGBoost and Random Forest** have been performed to make a relevant predictions.
+In this study the exploratory data analysis (**EDA**) with visualizations of wine quality dataset as well as **different ML algorithms**, such as **Logistic Regression, KNN, Naive Bayes, SVM, Decision Tree, XGBoost and Random Forest** have been performed to make a relevant predictions.
 
 #### The project is created with Python libraries:
 
@@ -66,24 +66,24 @@ Available at: [@Elsevier] http://dx.doi.org/10.1016/j.dss.2009.05.016 [Pre-press
 
 The dataset consists of the following input variables:
 
-- citric acid (g / dm^3);
-- free sulfur dioxide (mg / dm^3);
-- pH;
-- fixed acidity (tartaric acid - g / dm^3);
-- residual sugar (g / dm^3);
-- total sulfur dioxide (mg / dm^3);
-- sulphates (potassium sulphate - g / dm3);
-- volatile acidity (acetic acid - g / dm^3);
-- chlorides (sodium chloride - g / dm^3);
-- density (g / cm^3);
-- alcohol (% by volume). 
+- **citric acid** (g / dm^3);
+- **free sulfur dioxide** (mg / dm^3);
+- **pH**;
+- **fixed acidity** (tartaric acid - g / dm^3);
+- **residual sugar** (g / dm^3);
+- **total sulfur dioxide** (mg / dm^3);
+- **sulphates** (potassium sulphate - g / dm3);
+- **volatile acidity** (acetic acid - g / dm^3);
+-**chlorides** (sodium chloride - g / dm^3);
+- **density** (g / cm^3);
+- **alcohol** (% by volume). 
 
 And output variable (based on sensory data):
 
-- quality (score between 0 and 10).
+- **quality** (score between 0 and 10).
 
 
 ## Additional information
 
-The dataset contains no missing atribute values with 1599 instances of red wine and 4898 of white wine. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.  
+The dataset contains no missing atribute values with **1599** instances of **red wine** and **4898 of white wine**. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.  
 
