@@ -16,7 +16,7 @@ After examination if our dataset has any missing values and checking the feature
 
 #### For red wine
 
-The box and violin plots analysis of **'quality' target variable** showed that very high (above 7) and very low (below 4) quality of analyzed red wine is quite rare in our data. The multivariate visualization showed existence of co-correlations between particular features after plotting a heat map of them. A relevant scatter-plots show how the values of partiular variables change with each other. One can see a positive or negative correlations between them.
+The box and violin plots analysis of **'quality' target variable** showed that very high (**above 7**) and very low (**below 4**) quality of analyzed red wine is **quite rare** in our data. The multivariate visualization showed existence of **co-correlations between particular features** after plotting a **heat map** of them. A relevant **scatter-plots** show how the values of **partiular variables change with each other**. One can see a positive or negative correlations between them.
 
 We have apllied ML models to make a predictions of wine quality and our analysis showed that **the best prediction** is given by **Random Forest model** with accuracy score equal to **87 %** while **the poorest one** is given by **Naive Bayes model** with the accuracy score equal to **80 %**.
 
