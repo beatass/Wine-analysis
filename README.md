@@ -12,13 +12,13 @@ In this study the exploratory data analysis (**EDA**) with visualizations of win
 
 ## Recap
 
-After examination if our dataset has any missing values and checking the features within it and their data types, we begin with the EDA analysis. 
+After examination if the dataset has any missing values and checking the features within it and their data types, I begin with the EDA analysis. 
 
 #### For red wine
 
-The box and violin plots analysis of **'quality' target variable** showed that very high (**above 7**) and very low (**below 4**) quality of analyzed red wine is **quite rare** in our data. The multivariate visualization showed existence of **co-correlations between particular features** after plotting a **heat map** of them. A relevant **scatter-plots** show how the values of **partiular variables change with each other**. One can see a positive or negative correlations between them.
+The box and violin plots analysis of **'quality' target variable** showed that very high (**above 7**) and very low (**below 4**) quality of analyzed red wine is **quite rare** in the data. The multivariate visualization showed existence of **co-correlations between particular features** after plotting a **heat map** of them. A relevant **scatter-plots** show how the values of **partiular variables change with each other**. One can see a positive or negative correlations between them.
 
-We have apllied ML models to make a predictions of wine quality and our analysis showed that **the best prediction** is given by **Random Forest model** with accuracy score equal to **87 %** while **the poorest one** is given by **Naive Bayes model** with the accuracy score equal to **80 %**.
+I have apllied ML models to make a predictions of wine quality and my analysis showed that **the best prediction** is given by **Random Forest model** with accuracy score equal to **87 %** while **the poorest one** is given by **Naive Bayes model** with the accuracy score equal to **80 %**.
 
 Model | Accuracy
 ------------ | ------------- 
@@ -31,9 +31,9 @@ Naive Bayes | 0.80
 
 #### For white wine
 
-The box plots analysis showed many outliers for a quite few variables. To remove them the **Tukey's method** has been used. This way an outlier is calculated as **1.5 times interquartile range (IQR)**. To get more insights we have also plotted a heat map of co-correlations between features (after outliers extraction) and we have explored them in more details. To better visualize relationships of discrete values we have used a bar plots while to visualize a continuous ones we have used a scatter plots.
+The box plots analysis showed many outliers for a quite few variables. To remove them the **Tukey's method** has been used. This way an outlier is calculated as **1.5 times interquartile range (IQR)**. To get more insights I have also plotted a heat map of co-correlations between features (after outliers extraction) and I have explored them in more details. To better visualize relationships of discrete values I have used a bar plots while to visualize a continuous ones I have used a scatter plots.
 
-We have apllied ML models to make a predictions of wine quality and our analysis showed that **the best prediction** is given by **Random Forest model** with the accuracy score equal to **86 %** while the **poorest one** is given by **Naive Bayes model** with the accuracy score equal to **66 %**. We have also used a **GridSearch** to find **the best hyperparameters of Random Forest model** and to check if that result can be improved. By virtue the **GridSearch method we did not manage to improve the result** since we got a slightly worse one, with the accuracy score equal to **83%**.
+I have apllied ML models to make a predictions of wine quality and my analysis showed that **the best prediction** is given by **Random Forest model** with the accuracy score equal to **86 %** while the **poorest one** is given by **Naive Bayes model** with the accuracy score equal to **66 %**. I have also used a **GridSearch** to find **the best hyperparameters of Random Forest model** and to check if that result can be improved. By virtue the **GridSearch method I did not manage to improve the result** since I got a slightly worse one, with the accuracy score equal to **83%**.
 
 Model | Accuracy
 ------------ | ------------- 
