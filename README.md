@@ -78,7 +78,7 @@ The dataset consists of the following input variables:
 - **density** (g / cm^3);
 - **alcohol** (% by volume). 
 
-And output variable (based on sensory data):
+And output variable (based on sensory data): 
 
 - **quality** (score between 0 and 10).
 
