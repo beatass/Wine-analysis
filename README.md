@@ -6,7 +6,7 @@ The project concerns the prediction of what makes the wine taste good using Mach
 
 In this study the exploratory data analysis (**EDA**) with visualizations of wine quality dataset as well as **different Machine Learning (ML) algorithms**, such as **Logistic Regression, KNN, Naive Bayes, SVM, Decision Tree, XGBoost and Random Forest** have been performed to make a relevant predictions.
 
-#### The project is created with Python libraries:
+#### The project was created with Python libraries:
 
  -  scikit-learn/pandas/numpy.
 
@@ -85,5 +85,5 @@ And output variable (based on sensory data):
 
 ## Additional information
 
-The dataset contains no missing atribute values with **1599** instances of **red wine** and **4898 of white wine**. Several of the attributes may be correlated, thus it makes sense to apply some sort of feature selection.  
+The dataset contains no missing atribute values with **1599** instances of **red wine** and **4898 of white wine**. Several of the attributes may be correlated so it makes sense to apply some sort of feature selection.  
 
