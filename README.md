@@ -1,6 +1,6 @@
 # Wine analysis
 
-The project concerns the prediction of what makes the wine taste good using Machine Learning algorithms. 
+The project concerns the prediction of what makes the wine taste good using **Machine Learning algorithms**. 
 
 ## Motivation
 
@@ -37,13 +37,13 @@ I have apllied **ML models** to make a predictions of wine quality and my analys
 
 Model | Accuracy
 ------------ | ------------- 
-Random Forest | 0.86
-KNN | 0.79
-Decision Tree | 0.77
-XGBoost Classifier | 0.76
-Logistic Regression  | 0.75
-SVM | 0.73
-Naive Bayes | 0.66
+Random Forest | **0.86**
+KNN | **0.79**
+Decision Tree | **0.77**
+XGBoost Classifier | **0.76**
+Logistic Regression  | **0.75**
+SVM | **0.73**
+Naive Bayes | **0.66**
 
 #### Running the project:
 
