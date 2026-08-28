@@ -14,7 +14,7 @@ In this study the exploratory data analysis (**EDA**) with visualizations of win
 
 After examination if the dataset has any missing values and checking the features within it and their data types, I begin with  **EDA** analysis. 
 
-#### For red wine
+#### Red wine
 
 The **box and violin plots** analysis of **'quality' target variable** showed that very high (**above 7**) and very low (**below 4**) quality of analyzed red wine is **quite rare** in the data. The multivariate visualization showed existence of **co-correlations between particular features** after plotting a **heat map** of them. A relevant **scatter-plots** show how the values of **partiular variables change with each other**. One can see a positive or negative correlations between them.
 
@@ -29,7 +29,7 @@ SVM | 0.82
 Naive Bayes | 0.80
 
 
-#### For white wine
+#### White wine
 
 The **box plots** analysis showed many outliers for a quite few variables. To remove them  I have used the **Tukey's method**. This way an outlier is calculated as **1.5 times interquartile range (IQR)**. To get more insights I have also plotted a heat map of co-correlations between features (after outliers extraction) and I have explored them in more details. To better visualize relationships of discrete values I have used a bar plots while to visualize a continuous ones I have used a scatter plots.
 
@@ -47,7 +47,7 @@ Naive Bayes | **0.66**
 
 #### Running the project:
 
-* To run this project use Jupyter Notebook or Google Colab.
+* To run this project one can use Jupyter Notebook or Google Colab.
 
 ## Files in this repository
 
