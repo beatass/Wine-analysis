@@ -51,8 +51,8 @@ Naive Bayes | **0.66**
 
 ## Files in this repository
 
-1. The **red_wine_analysis.ipynb** file contains all the codes, plots and relevant descriptions of conducted analysis.
-2. The **white_wine_analysis.ipynb** file contains all the codes, plots and relevant descriptions of conducted analysis.
+1. The **red_wine_analysis.ipynb** file contains all codes, plots and relevant descriptions of conducted analysis.
+2. The **white_wine_analysis.ipynb** file contains all codes, plots and relevant descriptions of conducted analysis.
 
 ## The dataset origin
 
