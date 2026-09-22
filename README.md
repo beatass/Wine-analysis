@@ -4,7 +4,7 @@ The project concerns the prediction of what makes the wine taste good using **Ma
 
 ## Motivation
 
-In the study the exploratory data analysis (**EDA**) with visualizations of wine quality dataset as well as **different Machine Learning (ML) algorithms**, such as **Logistic Regression, KNN, Naive Bayes, SVM, Decision Tree, XGBoost and Random Forest** have been performed to make a relevant predictions.
+In the study the exploratory data analysis (**EDA**) with visualizations of wine quality dataset as well as different **Machine Learning (ML)** algorithms, such as **Logistic Regression, KNN, Naive Bayes, SVM, Decision Tree, XGBoost and Random Forest** have been performed to make a relevant predictions.
 
 #### The project was created with Python libraries:
 
@@ -33,7 +33,7 @@ Naive Bayes | 0.80
 
 The **box plots** analysis showed many outliers for a quite few variables. To remove them  I have used the **Tukey's method**. This way an outlier is calculated as **1.5 times interquartile range (IQR)**. To get more insights I have also plotted a heat map of co-correlations between features (after outliers extraction) and I have explored them in more details. To better visualize relationships of discrete values I have used a bar plots while to visualize a continuous ones I have used a scatter plots.
 
-I have apllied **ML models** to make a predictions of wine quality and my analysis showed that **the best prediction** is given by **Random Forest model** with the accuracy score equal to **86 %** while the **poorest one** is given by **Naive Bayes model** with the accuracy score equal to **66 %**. I have also used a **GridSearch** to find **the best hyperparameters of Random Forest model** and to check if that result can be improved. By virtue the **GridSearch method I did not manage to improve the result** since I got a slightly worse one, with the accuracy score equal to **83%**.
+I have applied **ML models** to make a predictions of wine quality and my analysis showed that **the best prediction** is given by **Random Forest model** with the accuracy score equal to **86 %** while the **poorest one** is given by **Naive Bayes model** with the accuracy score equal to **66 %**. I have also used a **GridSearch** to find **the best hyperparameters of Random Forest model** and to check if that result can be improved. By virtue the **GridSearch method I did not manage to improve the result** since I got a slightly worse one, with the accuracy score equal to **83%**.
 
 Model | Accuracy
 ------------ | ------------- 
