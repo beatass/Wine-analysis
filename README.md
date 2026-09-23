@@ -18,7 +18,7 @@ After examination if the dataset has any missing values and checking the feature
 
 The **box and violin plots** analysis of **'quality' target variable** showed that very high (**above 7**) and very low (**below 4**) quality of analyzed red wine is **quite rare** in the data. The multivariate visualization showed existence of **co-correlations between particular features** after plotting a **heat map** of them. A relevant **scatter-plots** show how the values of **partiular variables change with each other**. One can see a positive or negative correlations between them.
 
-I have also applied different **ML models** to make a predictions of wine quality and my analysis showed that **the best prediction** is given by **Random Forest model** with accuracy score equal to **87 %** while **the poorest one** is given by **Naive Bayes model** with the accuracy score equal to **80 %**.
+I have also applied different **ML models** to make a predictions of wine quality and my results showed that **the best prediction** is given by **Random Forest model** with accuracy score equal to **87 %** while **the poorest one** is given by **Naive Bayes model** with the accuracy score equal to **80 %**.
 
 Model | Accuracy
 ------------ | ------------- 
@@ -33,7 +33,7 @@ Naive Bayes | 0.80
 
 The **box plots** analysis showed many outliers for a quite few variables. To remove them  I have used the **Tukey's method**. This way an outlier is calculated as **1.5 times interquartile range (IQR)**. To get more insights I have also plotted a heat map of co-correlations between features (after outliers extraction) and I have explored them in more details. To better visualize relationships of discrete values I have used a bar plots while to visualize a continuous ones I have used a scatter plots.
 
-I have applied **ML models** to make a predictions of wine quality and my analysis showed that **the best prediction** is given by **Random Forest model** with the accuracy score equal to **86 %** while the **poorest one** is given by **Naive Bayes model** with the accuracy score equal to **66 %**. I have also used a **GridSearch** to find **the best hyperparameters of Random Forest model** and to check if that result can be improved. By virtue the **GridSearch method I did not manage to improve the result** since I got a slightly worse one, with the accuracy score equal to **83%**.
+I have applied **ML models** to make a predictions of wine quality and my results showed that **the best prediction** is given by **Random Forest model** with the accuracy score equal to **86 %** while the **poorest one** is given by **Naive Bayes model** with the accuracy score equal to **66 %**. I have also used a **GridSearch** to find **the best hyperparameters of Random Forest model** and to check if that result can be improved. By virtue the **GridSearch method I did not manage to improve the result** since I got a slightly worse one, with the accuracy score equal to **83%**.
 
 Model | Accuracy
 ------------ | ------------- 
