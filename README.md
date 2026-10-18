@@ -47,7 +47,7 @@ Naive Bayes | **0.66**
 
 #### Running the project:
 
-* To run this project one can use Jupyter Notebook or Google Colab.
+* To run this project one can use **Jupyter Notebook or Google Colab**.
 
 ## Files in this repository
 
