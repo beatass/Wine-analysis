@@ -56,7 +56,7 @@ Naive Bayes | **0.66**
 
 ## The dataset origin
 
-The dataset can be found at Kaggle but is also public available for research in the work of Cortez et al. from 2009 and contains two datasets with red and white wine samples.,
+The **dataset can be found at Kaggle** but is also public available for research in the work of Cortez et al. from 2009 and contains two datasets with red and white wine samples.,
 
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
 
