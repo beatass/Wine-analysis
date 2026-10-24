@@ -1,6 +1,6 @@
 # Wine analysis
 
-The project concerns the prediction of what makes the wine taste good using **Machine Learning (ML) algorithms**. 
+The project concerns the prediction what makes the wine taste good using **Machine Learning (ML) algorithms**. 
 
 ## Motivation
 
