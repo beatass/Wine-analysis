@@ -6,7 +6,7 @@ The project concerns the prediction what makes the wine taste good using **Machi
 
 In the study the **exploratory data analysis (EDA)** with visualizations of wine quality dataset as well as different **ML** algorithms, such as **Logistic Regression, KNN, Naive Bayes, SVM, Decision Tree, XGBoost and Random Forest** have been performed to make a relevant predictions.
 
-#### The project was created with Python libraries:
+#### The project was created with Python libraries: 
 
  -  scikit-learn/pandas/numpy. 
 
